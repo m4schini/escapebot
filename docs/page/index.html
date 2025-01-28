@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta content="Escapebot" name="description">
+    <meta content="Escapebot" property="og:title"/>
+    <meta content="A javafx 2D labyrinth game with level editor" property="og:description"/>
+    <meta content="https://m4schini.github.io/escabebot" property="og:url"/>
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+<!--    <meta content="static/image/your_banner_image.png" property="og:image"/>-->
+    <meta content="1200" property="og:image:width"/>
+    <meta content="630" property="og:image:height"/>
+
+
+    <meta content="Escapebot" name="twitter:title">
+    <meta content="A javafx 2D labyrinth game with level editor" name="twitter:description">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+<!--    <meta content="static/images/your_twitter_banner_image.png" name="twitter:image">-->
+<!--    <meta content="summary_large_image" name="twitter:card">-->
+    <!-- Keywords for your paper to be indexed by-->
+    <meta content="Java Javafx Game" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <meta name="citation_author" content="Schink, Alex">
+    <meta name="citation_title" content="Escapebot">
+    <meta name="citation_date" content="2021">
+    <meta name="citation_dissertation_institution" content="University of Applied Sciences Wedel">
+    <meta name="citation_publication_date" content="2021">
+    <meta name="citation_type" content="other">
+    <meta name="citation_language" content="en">
+    <meta name="citation_place" content="Wedel, Germany">
+    <meta name="citation_public_url" content="https://m4schini.github.io/escapebot/">
+    <meta name="citation_pdf_url" content="https://s3.auroraborealis.cloud/static/escapebot_benutzerhandbuch.pdf">
+
+
+    <title>Escapebot - Bachelor's Thesis</title>
+    <link href="static/images/FBot.png" rel="icon" type="image/png">
+    <!--  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">-->
+
+    <link href="static/css/bulma.min.css" rel="stylesheet">
+    <link href="static/css/fontawesome.all.min.css" rel="stylesheet">
+    <link href="static/css/academicons.min.css" rel="stylesheet">
+    <link href="static/css/index.css" rel="stylesheet">
+
+    <!--  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>-->
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title">Escapebot</h1>
+                    <h2 class="title is-5 publication-title">A javafx 2D labyrinth game with level editor</h2>
+                    <div class="is-size-5 publication-authors">
+                        <!-- Paper authors -->
+                        <span class="author-block">
+                <a href="https://orcid.org/0009-0008-3023-1228" target="_blank">m4schini</a></span>
+                    </div>
+
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block">University of Applied Sciences Wedel<br>Programmierpraktikum</span>
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                            <!-- Supplementary PDF link -->
+                            <span class="link-block">
+                      <a class="external-link button is-normal is-rounded is-dark" href="https://s3.auroraborealis.cloud/static/escapebot_benutzerhandbuch.pdf"
+                         target="_blank">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Benutzerhandbuch</span>
+                    </a>
+                  </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                    <a class="external-link button is-normal is-rounded is-dark" href="https://github.com/m4schini/escapebot"
+                       target="_blank">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Github link -->
+                <span class="link-block">
+                    <a class="external-link button is-normal is-rounded is-dark" href="https://github.com/m4schini/escapebot/releases"
+                       target="_blank">
+                    <span class="icon">
+                      <i class="fas fa-download"></i>
+                    </span>
+                    <span>Download</span>
+                  </a>
+                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        Im Rahmen des Programmierpraktikums im Wintersemester 2021 an der Fachhochschule Wedel entstand das Spiel EscapeBot, ein Programm, das Konzepte der Programmierung spielerisch vermittelt. EscapeBot basiert auf dem bekannten Spiel LightBot und fordert die Spieler:innen auf, einen Roboter so zu programmieren, dass er in verschiedenen Leveln Münzen einsammelt und eine Tür erreicht, um das Level erfolgreich abzuschließen.
+                        <br><br>
+                        Das Spiel bietet eine grafische Benutzeroberfläche basierend auf JavaFX, in der Benutzer:innen Prozeduren aus einfachen Befehlen wie Vorwärtsgehen, Drehen oder Springen zusammenstellen können. Darüber hinaus verfügt es über einen Karten-Editor, mit dem eigene Level erstellt und auf Lösbarkeit überprüft werden können.
+                        <br><br>
+                        EscapeBot implementiert fortschrittliche Algorithmen, darunter Pathfinding und Floodfill, um Levelanalyse und optimale Lösungswege zu ermöglichen. Es wurde in Java entwickelt und ist plattformunabhängig ausführbar, solange die Java Runtime Environment (Version 17.0.1 oder höher) installiert ist. Das Projekt kombiniert interaktive Spielelemente mit einem pädagogischen Ansatz, um das Verständnis für Algorithmen und logische Abläufe zu fördern.
+                        <br><br>
+                        <em>This abstract was generated by ChatGPT</em>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="section hero">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Architecture</h2>
+                <div class="content has-text-justified">
+                    <p>
+                    </p>
+                </div>
+                <img src="static/images/escapebot-POP_v4.7.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Results</h2>
+                <div class="content has-text-justified">
+                    <p>
+                    </p>
+                </div>
+                <img src="static/images/EscapeBotStart.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--BibTex citation -->
+<section class="section is-light" id="BibTeX">
+    <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>
+            @software{schink2021escapebot,
+                author       = {m4schini},
+                title        = {Escapebot},
+                year         = {2021},
+                school       = {University of Applied Sciences Wedel},
+                type         = {software},
+                address      = {Wedel, Germany},
+                url          = {https://m4schini.github.io/escapebot/},
+            }
+        </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+
+                    <p>
+                        This page was built using the <a
+                            href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic
+                        Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io"
+                                                                                target="_blank">Nerfies</a> project
+                        page.
+                        You are free to borrow the source code of this website, we just ask that you link back to this
+                        page in the footer. <br> This website is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/"
+                                                                                     rel="license"
+                                                                                     target="_blank">Creative
+                        Commons Attribution-ShareAlike 4.0 International License</a>.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
