@@ -1,0 +1,125 @@
+/*
+<JAVAFX>
+ */
+*:disabled {
+    -fx-opacity: 0.95;
+}
+
+.button {
+    -fx-background-color: #161616;
+    -fx-text-fill: white;
+    -fx-background-radius: 0;
+}
+
+.button:hover {
+    -fx-background-color: gray;
+}
+/*
+<CONTROL>
+ */
+
+.texture-card:selected {
+    -fx-border-color: darkred;
+    -fx-border-width: 4;
+}
+
+.texture-card:hover {
+    -fx-highlight-fill: white;
+}
+
+/*
+<COMPONENTS>
+ */
+
+/*
+Procedure
+*/
+/* Procedure Editor */
+.editor .label {
+    -fx-text-fill: white;
+}
+
+.editor .instructions-box {
+    -fx-padding: 8px;
+    -fx-fill: white;
+}
+
+.editor {
+    -fx-padding: 8;
+}
+
+.editor .selector {
+    -fx-alignment: top-center;
+}
+
+.editor .text {
+    -fx-fill: white !important;
+    -fx-text-fill: white !important;
+}
+
+/* ProcedureGrid */
+.procedure-grid .procedure-field {
+    -fx-min-height: 71.0;
+    -fx-max-height: 71.0;
+    -fx-min-width: 71.0;
+    -fx-max-width: 71.0;
+    -fx-padding: 0;
+    -fx-background-color: #775c55;
+    -fx-border-color: #222222;
+    -fx-border-width: 2;
+}
+
+.procedure-grid .procedure-field:selected {
+    -fx-border-color: cyan;
+    -fx-border-width: 4;
+}
+
+.procedure-grid .text {
+    -fx-fill: white !important;
+    -fx-text-fill: white !important;
+}
+
+/* Editor Grid */
+.editor-grid .texture-grid-field:hover {
+    -fx-opacity: 0.5;
+}
+
+/* GameInfoBar */
+.game-info-bar {
+    -fx-background-color: #FFF;
+}
+
+/* Modals */
+.exception-modal {
+    -fx-padding: 8px;
+}
+
+.exception-modal .title {
+    -fx-font-size: 30px;
+    -fx-font-weight: 900;
+}
+
+.exception-modal .description {
+    -fx-font-style: italic;
+}
+
+.board-problem-modal {
+    -fx-text-fill: black;
+}
+
+/*
+<IDS>
+ */
+
+#paneStage {
+    -fx-background-color: #222222;
+}
+
+#boxSidebar {
+    -fx-background-color: #222;
+    -fx-text-fill: white;
+}
+
+#infoBar {
+    -fx-background-color: #FFF !important;
+}
